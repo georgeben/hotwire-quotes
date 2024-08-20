@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>QuoteEditor</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="csrf-param" content="authenticity_token" />
+  <meta name="csrf-token"
+    content="8vCC5iZjHO2E4gA19sh_sfpH3TKPUeayp_2p2zKxj6vlgZQc5FA41EoJaY7klBf5Ji9P_594fT7tbA1s8qIznA" />
+
+  <link rel="stylesheet" href="/assets/application-65c3cf5b0fcef7f6b92d8c637f211eb99db6d295354c32966a9030b7824a329c.css"
+    data-turbo-track="reload" />
+  <script src="/assets/application-8ed0612dbaac34b291c9b5ff970e652784947dbaba884a00907637a1444555ab.js"
+    data-turbo-track="reload" type="module"></script>
+</head>
+
+<body data-turbo="true">
+  <header class="navbar">
+    <div class="navbar__brand">
+      KMPG
+    </div>
+    <div class="navbar__name">
+      Accountant
+    </div>
+    <form class="button_to" method="post" action="/users/sign_out"><input type="hidden" name="_method" value="delete"
+        autocomplete="off" /><button class="btn btn--dark" type="submit">Sign out</button><input type="hidden"
+        name="authenticity_token"
+        value="n7PSRrN5nOTiRsZqpzgzdi6GqADjKInkkmqNr89_w2Ep-LbtlBRlauEqdq97MkZVFHv6DsVp8bpsP1CGCcP5Pg"
+        autocomplete="off" /></form>
+  </header>
+  <div id="flash" class="flash">
+
+  </div>
+  <main class="container">
+    <a href="/quotes">← Back to quotes</a>
+    <div class="header">
+      <h1> First Quote </h1>
+      <a class="btn btn--primary" data-turbo-frame="new_line_item_date" href="/quotes/309456473/line_item_dates/new">New
+        date</a>
+    </div>
+    <turbo-frame id="new_line_item_date"></turbo-frame>
+
+    <turbo-frame id="line_item_dates">
+      <turbo-frame id="line_item_date_869574344">
+        <div class="line-item-date">
+          <div class="line-item-date__header">
+            <h2 class="line-item-date__title">
+              July 11, 2024
+            </h2>
+            <div class="line-item-date__actions">
+              <form class="button_to" method="post" action="/quotes/309456473/line_item_dates/869574344"><input
+                  type="hidden" name="_method" value="delete" autocomplete="off" /><button class="btn btn--light"
+                  data-turbo-confirm="Are you sure?" type="submit">Delete</button><input type="hidden"
+                  name="authenticity_token"
+                  value="puOTvvt_lFwMpvfffHT2ytyXqmb02CUizED-tV3Mgj03t11Ntyhd6K481MIGEf4r4aEz4C9RvnLF3t_e92gqqg"
+                  autocomplete="off" /></form>
+              <a class="btn btn--light" href="/quotes/309456473/line_item_dates/869574344/edit">Edit</a>
+            </div>
+          </div>
+
+          <div class="line-item-date__body">
+            <div class="line-item line-item--header">
+              <div class="line-item__name">Article</div>
+              <div class="line-item__quantity">Quantity</div>
+              <div class="line-item__price">Price</div>
+              <div class="line-item__actions"></div>
+            </div>
+            <div class="line-item">
+              <div class="line-item__name">
+                Petrol for generator
+                <div class="line-item__description">
+                  <p></p>
+                </div>
+              </div>
+              <div class="line-item__quantity-price">
+                20
+                &times;
+                $1,600.00
+              </div>
+              <div class="line-item__quantity">
+                20
+              </div>
+              <div class="line-item__price">
+                $1,600.00
+              </div>
+              <div class="line-item__actions">
+                <form class="button_to" method="post"
+                  action="/quotes/309456473/line_item_dates/869574344/line_items/963118962"><input type="hidden"
+                    name="_method" value="delete" autocomplete="off" /><button class="btn btn--light"
+                    type="submit">Delete</button><input type="hidden" name="authenticity_token"
+                    value="h6bbsTaGWKLt1yejrV_1azA6PXkGYXDWL0BkG34MoO0MKX_ZIkXc8INigRhOTaUuWs-YIyJ1nNEzQgP4CKkH-Q"
+                    autocomplete="off" /></form>
+                <a class="btn btn--light"
+                  href="/quotes/309456473/line_item_dates/869574344/line_items/963118962/edit">Edit</a>
+              </div>
+            </div>
+            <div class="line-item">
+              <div class="line-item__name">
+                Monday
+                <div class="line-item__description">
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="line-item__quantity-price">
+                10
+                &times;
+                $100.00
+              </div>
+              <div class="line-item__quantity">
+                10
+              </div>
+              <div class="line-item__price">
+                $100.00
+              </div>
+              <div class="line-item__actions">
+                <form class="button_to" method="post"
+                  action="/quotes/309456473/line_item_dates/869574344/line_items/963118963"><input type="hidden"
+                    name="_method" value="delete" autocomplete="off" /><button class="btn btn--light"
+                    type="submit">Delete</button><input type="hidden" name="authenticity_token"
+                    value="ff3ZhH_1lCcCqgDDV6q_7GnZRomdh9k2ro2OuIjze3TRNxsfEWEqtmWuySa3iCrzPSqbl3ms4e0Zb0T3iKvOQw"
+                    autocomplete="off" /></form>
+                <a class="btn btn--light"
+                  href="/quotes/309456473/line_item_dates/869574344/line_items/963118963/edit">Edit</a>
+              </div>
+            </div>
+            <div class="line-item">
+              <div class="line-item__name">
+                Rhapsody
+                <div class="line-item__description">
+                  <p>-one
+                    <br />-two
+                    <br />-three
+                    <br />-four
+                  </p>
+                </div>
+              </div>
+              <div class="line-item__quantity-price">
+                10
+                &times;
+                $200.00
+              </div>
+              <div class="line-item__quantity">
+                10
+              </div>
+              <div class="line-item__price">
+                $200.00
+              </div>
+              <div class="line-item__actions">
+                <form class="button_to" method="post"
+                  action="/quotes/309456473/line_item_dates/869574344/line_items/963118964"><input type="hidden"
+                    name="_method" value="delete" autocomplete="off" /><button class="btn btn--light"
+                    type="submit">Delete</button><input type="hidden" name="authenticity_token"
+                    value="1oHKD3IkLzlguo9n1WUbkw_dVVWSZwEM3DKq-DpCrs1Qb9EPDskMtFA74poS6gtv9sB0w17QZcAzULA4_7ZArA"
+                    autocomplete="off" /></form>
+                <a class="btn btn--light"
+                  href="/quotes/309456473/line_item_dates/869574344/line_items/963118964/edit">Edit</a>
+              </div>
+            </div>
+            <div class="line-item-date__footer">
+              <a data-turbo-frame="_top" class="btn btn--primary"
+                href="/quotes/309456473/line_item_dates/869574344/line_items/new">Add item</a>
+            </div>
+          </div>
+      </turbo-frame>
+      <turbo-frame id="line_item_date_869574343">
+        <div class="line-item-date">
+          <div class="line-item-date__header">
+            <h2 class="line-item-date__title">
+              August 15, 2024
+            </h2>
+            <div class="line-item-date__actions">
+              <form class="button_to" method="post" action="/quotes/309456473/line_item_dates/869574343"><input
+                  type="hidden" name="_method" value="delete" autocomplete="off" /><button class="btn btn--light"
+                  data-turbo-confirm="Are you sure?" type="submit">Delete</button><input type="hidden"
+                  name="authenticity_token"
+                  value="xldcuDrBWeoggp0an2dK-h4FccaUqM1-IG1J6VkPEDpsqHYsbEr-dh1rhqdlSsT_cqGIRAkiejxDGFwAji7wcA"
+                  autocomplete="off" /></form>
+              <a class="btn btn--light" href="/quotes/309456473/line_item_dates/869574343/edit">Edit</a>
+            </div>
+          </div>
+
+          <div class="line-item-date__body">
+            <div class="line-item line-item--header">
+              <div class="line-item__name">Article</div>
+              <div class="line-item__quantity">Quantity</div>
+              <div class="line-item__price">Price</div>
+              <div class="line-item__actions"></div>
+            </div>
+            <div class="line-item">
+              <div class="line-item__name">
+                Meeting room
+                <div class="line-item__description">
+                  <p>A cosy meeting room for 10 people</p>
+                </div>
+              </div>
+              <div class="line-item__quantity-price">
+                1
+                &times;
+                $1,000.00
+              </div>
+              <div class="line-item__quantity">
+                1
+              </div>
+              <div class="line-item__price">
+                $1,000.00
+              </div>
+              <div class="line-item__actions">
+                <form class="button_to" method="post"
+                  action="/quotes/309456473/line_item_dates/869574343/line_items/963118961"><input type="hidden"
+                    name="_method" value="delete" autocomplete="off" /><button class="btn btn--light"
+                    type="submit">Delete</button><input type="hidden" name="authenticity_token"
+                    value="l5IfBVcu9IbqJ5UI9O2WJLMHsyGuZAcjL-KcFNvpoA1SPjli9zPGCapy7q3PoBkWJm6iGfwwJNdgvwEkjEJfqQ"
+                    autocomplete="off" /></form>
+                <a class="btn btn--light"
+                  href="/quotes/309456473/line_item_dates/869574343/line_items/963118961/edit">Edit</a>
+              </div>
+            </div>
+            <div class="line-item">
+              <div class="line-item__name">
+                Meal tray
+                <div class="line-item__description">
+                  <p>Our delicious meal tray</p>
+                </div>
+              </div>
+              <div class="line-item__quantity-price">
+                10
+                &times;
+                $25.00
+              </div>
+              <div class="line-item__quantity">
+                10
+              </div>
+              <div class="line-item__price">
+                $25.00
+              </div>
+              <div class="line-item__actions">
+                <form class="button_to" method="post"
+                  action="/quotes/309456473/line_item_dates/869574343/line_items/898570592"><input type="hidden"
+                    name="_method" value="delete" autocomplete="off" /><button class="btn btn--light"
+                    type="submit">Delete</button><input type="hidden" name="authenticity_token"
+                    value="ri5le8U05QPb-mOB54w40nLk9zrjR4VHdW8tvlLJER1b8MIoCFfv1mxCBz95ZjGBqfyy_3BtCNVGbmqFdFjquw"
+                    autocomplete="off" /></form>
+                <a class="btn btn--light"
+                  href="/quotes/309456473/line_item_dates/869574343/line_items/898570592/edit">Edit</a>
+              </div>
+            </div>
+            <div class="line-item-date__footer">
+              <a data-turbo-frame="_top" class="btn btn--primary"
+                href="/quotes/309456473/line_item_dates/869574343/line_items/new">Add item</a>
+            </div>
+          </div>
+      </turbo-frame>
+      <turbo-frame id="line_item_date_634052379">
+        <div class="line-item-date">
+          <div class="line-item-date__header">
+            <h2 class="line-item-date__title">
+              August 22, 2024
+            </h2>
+            <div class="line-item-date__actions">
+              <form class="button_to" method="post" action="/quotes/309456473/line_item_dates/634052379"><input
+                  type="hidden" name="_method" value="delete" autocomplete="off" /><button class="btn btn--light"
+                  data-turbo-confirm="Are you sure?" type="submit">Delete</button><input type="hidden"
+                  name="authenticity_token"
+                  value="YZbXNdZP8cDCwnbkN-1SoBWjZGt3LdXtX0i1pJ-OntZJtLKT4_RdawKL5u0YjCelW1CBLE5XOnj9U0hmW7WBhA"
+                  autocomplete="off" /></form>
+              <a class="btn btn--light" href="/quotes/309456473/line_item_dates/634052379/edit">Edit</a>
+            </div>
+          </div>
+
+          <div class="line-item-date__body">
+            <div class="line-item line-item--header">
+              <div class="line-item__name">Article</div>
+              <div class="line-item__quantity">Quantity</div>
+              <div class="line-item__price">Price</div>
+              <div class="line-item__actions"></div>
+            </div>
+            <div class="line-item">
+              <div class="line-item__name">
+                Meeting room
+                <div class="line-item__description">
+                  <p>A cosy meeting room for 10 people</p>
+                </div>
+              </div>
+              <div class="line-item__quantity-price">
+                1
+                &times;
+                $1,000.00
+              </div>
+              <div class="line-item__quantity">
+                1
+              </div>
+              <div class="line-item__price">
+                $1,000.00
+              </div>
+              <div class="line-item__actions">
+                <form class="button_to" method="post"
+                  action="/quotes/309456473/line_item_dates/634052379/line_items/962805622"><input type="hidden"
+                    name="_method" value="delete" autocomplete="off" /><button class="btn btn--light"
+                    type="submit">Delete</button><input type="hidden" name="authenticity_token"
+                    value="LF9W_jqdCUSSwbf_Y22d5Kiuz_xXXHXyT6CLEa_5_FwmQuXRxbssE7rR0n7HhMjXOD_VjrmI8QijNUY08dnG8A"
+                    autocomplete="off" /></form>
+                <a class="btn btn--light"
+                  href="/quotes/309456473/line_item_dates/634052379/line_items/962805622/edit">Edit</a>
+              </div>
+            </div>
+            <div class="line-item">
+              <div class="line-item__name">
+                Meal tray
+                <div class="line-item__description">
+                  <p>Our delicious meal tray</p>
+                </div>
+              </div>
+              <div class="line-item__quantity-price">
+                10
+                &times;
+                $25.00
+              </div>
+              <div class="line-item__quantity">
+                10
+              </div>
+              <div class="line-item__price">
+                $25.00
+              </div>
+              <div class="line-item__actions">
+                <form class="button_to" method="post"
+                  action="/quotes/309456473/line_item_dates/634052379/line_items/365743942"><input type="hidden"
+                    name="_method" value="delete" autocomplete="off" /><button class="btn btn--light"
+                    type="submit">Delete</button><input type="hidden" name="authenticity_token"
+                    value="u0i-NW_0K2pVtV6CcpIHkvMl_2RkxSomm_G1GOCN1WYm1eomplwDAoIOT0y9U9IBPHcksojkKxvAhZMKqOwpCg"
+                    autocomplete="off" /></form>
+                <a class="btn btn--light"
+                  href="/quotes/309456473/line_item_dates/634052379/line_items/365743942/edit">Edit</a>
+              </div>
+            </div>
+            <div class="line-item-date__footer">
+              <a data-turbo-frame="_top" class="btn btn--primary"
+                href="/quotes/309456473/line_item_dates/634052379/line_items/new">Add item</a>
+            </div>
+          </div>
+      </turbo-frame>
+    </turbo-frame>
+  </main>
+</body>
+
+</html>
